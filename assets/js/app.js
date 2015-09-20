@@ -150,22 +150,22 @@ $(function () {
 	 *	GITheWall
 	 */
 	
-	$('.GITheWall').GITheWall({
-		nextButtonClass: 'fa fa-chevron-right',
-		prevButtonClass: 'fa fa-chevron-left',
-		closeButtonClass: 'fa fa-times',
-		dynamicHeight: false,
-		onShow: function(){
-			$("#portfolio-container").slideDown(300).fadeOut(300);
-			$(".filter-tags").slideDown(300).fadeOut(300);
-			$("#portfolio-more").slideDown(300).fadeOut(300);
-		},
-		onHide: function(){
-			$("#portfolio-container").slideUp(300).fadeIn(300);
-			$(".filter-tags").slideUp(300).fadeIn(300);
-			$("#portfolio-more").slideUp(300).fadeIn(300);
-		}
-	});
+	// $('.GITheWall').GITheWall({
+	// 	nextButtonClass: 'fa fa-chevron-right',
+	// 	prevButtonClass: 'fa fa-chevron-left',
+	// 	closeButtonClass: 'fa fa-times',
+	// 	dynamicHeight: false,
+	// 	onShow: function(){
+	// 		$("#portfolio-container").slideDown(300).fadeOut(300);
+	// 		$(".filter-tags").slideDown(300).fadeOut(300);
+	// 		$("#portfolio-more").slideDown(300).fadeOut(300);
+	// 	},
+	// 	onHide: function(){
+	// 		$("#portfolio-container").slideUp(300).fadeIn(300);
+	// 		$(".filter-tags").slideUp(300).fadeIn(300);
+	// 		$("#portfolio-more").slideUp(300).fadeIn(300);
+	// 	}
+	// });
 	
 	
 	/*
