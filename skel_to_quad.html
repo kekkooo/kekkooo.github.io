@@ -53,26 +53,29 @@
 				<div class="row" style="margin-top: 100px;">
 					<div class="col-sm-12">
 						<h3 class="section-title">
-							Skeleton Lab: an Interactive Tool to Create, Edit, and Repair Curve-Skeletons</h3>
+							Extraction of the Quad Layout of a Triangle Mesh Guided by its Curve-Skeleton
 						<div class="section-title-border"></div>
 					</div>
 				</div>
 				
 				<div class="row mt20">
-					<div class="col-sm-4 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
-						<img src="assets/img/portfolio/skel_lab.png" class="img-responsive about-img" />
-						<img src="assets/img/portfolio/skel_lab/armadillo_compose.png" class="img-responsive about-img" />
+					<div class="col-sm-4 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">						
+						<img src="assets/img/portfolio/skel_to_quad/pipeline.png" class="img-responsive about-img" />
+						<img src="assets/img/portfolio/skel_to_quad/dragon.png" class="img-responsive about-img" />
 					</div>
 					<div class="col-sm-8 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
 						<p class="lead">
-							STAG 2015 Verona, Italy
+							ACM Transactions On Graphics 2015
+						</p>
+						<p class="lead">
+							presented at SIGGRAPH Asia 2015
 						</p>
 						<p style="margin-bottom: 5px; margin-top: 5px;"><strong> Authors </strong></p>
-						Barbieri Simone, Meloni Pietro, Usai Francesco, Scateni Riccardo
+						Usai Francesco , Livesu Marco, Puppo Enrico, Tarini Marco, Scateni Riccardo
 					</br>
 						<p style="margin-bottom: 5px; margin-top: 5px;"><strong> Abstract </strong></p>
 						<p>
-							Curve-skeletons are well known shape descriptors, able to encode topological and structural information of a shape. The range of applications in which they are used comprises, to name a few, computer animation, shape matching, modelling and remeshing. Different tools for automatically extracting the curve-skeleton for a given input mesh are currently available, as well as inverse skeletonization tools, where a user-defined skeleton is taken as input in order to build a mesh that reflects the encoded structure. Although their use is broad, an automatically extracted curve-skeleton is usually not well-suited for the next pipeline step in which they will be used. We present a tool for creating, editing and repairing curve-skeletons whose aim is to allow users to obtain, within minutes, curve-skeletons that are tailored for their specific task.
+							Starting from the triangle mesh of a digital shape, mainly an articulated object, we produce a coarse quad layout that can be used in character modeling and animation. Our quad layout follows the intrinsic object structure described by its curve skeleton; it contains few irregular vertices of low degree; it can be immediately refined into a semi-regular quad mesh; it provides a structured domain for UV-mapping and parametrization. Our method is fast, one-click and it does not require any parameter setting. The user can steer and refine the process through simple interactive tools during the construction of the quad layout.
 						</p>						
 					</div>
 				</div>
@@ -83,20 +86,20 @@
 						<h3 class="section-title" style="text-align:left;">Links and Downloads</h3>
 						<div class="section-title-border"></div>
 					</div>
-				</div>
-						<li class="fa fa-github" style="font-size: 40px;display: list-item;list-style-type: none; margin-top: 10px">
-						<a style="font-size: 20px; vertical-align: middle;" href="https://github.com/kekkooo/SkeletonLab">
-						GitHub project page
-						</a>
-					</li>
+				</div>						
 					<li class="fa fa-file-pdf-o" style="font-size: 40px;display: list-item;list-style-type: none; margin-top: 10px">
 						<a style="font-size: 20px; vertical-align: middle;">
-						Conference paper ( available soon )
+						Paper ( available soon )
 						</a>
 					</li>
 					<li class="fa fa-file-powerpoint-o" style="font-size: 40px;display: list-item;list-style-type: none; margin-top: 10px">
 						<a style="font-size: 20px; vertical-align: middle;">
 						Conference presentation ( available soon )
+						</a>
+					</li>
+					<li class="fa fa-file-archive-o" style="font-size: 40px;display: list-item;list-style-type: none; margin-top: 10px">
+						<a style="font-size: 20px; vertical-align: middle;">
+						Sample Data ( available soon )
 						</a>
 					</li>
 
@@ -126,22 +129,15 @@
 					</div>
 				</div>
 				<div class"row">											
-						<img src="assets/img/portfolio/skel_lab/armadillo_compose.png" class="img-responsive about-img" 
-						style="margin-bottom : 50px" />				
-						<div class="col-sm-1"></div>
-						<div class="col-sm-4">
-							<img src="assets/img/portfolio/skel_lab/humanoid_handcrafted.png" class="img-responsive about-img"
+						<img src="assets/img/portfolio/skel_to_quad/mosaic.png" class="img-responsive about-img" 
+						style="margin-bottom : 50px" />										
+						<img src="assets/img/portfolio/skel_to_quad/comparisons.png" class="img-responsive about-img"
+							style="margin-bottom : 50px" />							
+						<img src="assets/img/portfolio/skel_to_quad/remeshing.png" class="img-responsive about-img"
 							style="margin-bottom : 50px" />
-						</div>
-						<div class="col-sm-2"></div>
-						<div class="col-sm-4">
-							<img src="assets/img/portfolio/skel_lab/model9_tagliasacchi.png" class="img-responsive about-img"
-							style="margin-bottom : 50px" />
-						</div>
-						<img src="assets/img/portfolio/skel_lab/octopus_compose3.png" class="img-responsive about-img"
-						style="margin-bottom : 50px" />
-						<img src="assets/img/portfolio/skel_lab/dragon_compose.png" class="img-responsive about-img"
-						style="margin-bottom : 50px" />
+						<img src="assets/img/portfolio/skel_to_quad/uv_mappings.png" class="img-responsive about-img"
+							style="margin-bottom : 50px" />						
+
 				</div>
 
 			</div>
