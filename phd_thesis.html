@@ -62,30 +62,36 @@
 				<div class="row" style="margin-top: 100px;">
 					<div class="col-sm-12">
 						<h3 class="section-title">
-							Extraction of the Quad Layout of a Triangle Mesh Guided by its Curve-Skeleton
+							Structured Meshes: Composition and Remeshing guided by the Curve-Skeleton
 						<div class="section-title-border"></div>
 					</div>
 				</div>
 				
 				<div class="row mt20">
 					<div class="col-sm-4 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">						
-						<img src="assets/img/portfolio/skel_to_quad/pipeline.png" class="img-responsive about-img" />
-						<img src="assets/img/portfolio/skel_to_quad/dragon.png" class="img-responsive about-img" />
+						<img src="assets/img/portfolio/thesis_clean_vert.png" class="img-responsive about-img" />
+						<!-- <img src="assets/img/portfolio/skel_to_quad/dragon.png" class="img-responsive about-img" /> -->
 					</div>
 					<div class="col-sm-8 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
-						<p class="lead">
-							ACM Transactions On Graphics 2015
+					<!-- 	<p class="lead">
+							Ph.D. Thesis
 						</p>
 						<p class="lead">
-							presented at SIGGRAPH Asia 2015
-						</p>
-						<p style="margin-bottom: 5px; margin-top: 5px;"><strong> Authors </strong></p>
-						Usai Francesco , Livesu Marco, Puppo Enrico, Tarini Marco, Scateni Riccardo
+							Università degli Studi di Cagliari
+						</p> -->
+						<p style="margin-bottom: 5px; margin-top: 5px;"><strong> Author </strong></p>
+						Usai Francesco
 					</br>
 						<p style="margin-bottom: 5px; margin-top: 5px;"><strong> Abstract </strong></p>
 						<p>
-							Starting from the triangle mesh of a digital shape, mainly an articulated object, we produce a coarse quad layout that can be used in character modeling and animation. Our quad layout follows the intrinsic object structure described by its curve skeleton; it contains few irregular vertices of low degree; it can be immediately refined into a semi-regular quad mesh; it provides a structured domain for UV-mapping and parametrization. Our method is fast, one-click and it does not require any parameter setting. The user can steer and refine the process through simple interactive tools during the construction of the quad layout.
-						</p>						
+							Virtual sculpting is currently a broadly used modeling metaphor with rising popularity especially in the entertainment industry. While this approach unleashes the artists' inspiration and creativity and leads to wonderfully detailed and artistic 3D models, it has the side effect, purely technical, of producing highly irregular meshes that are not optimal for subsequent processing.  Converting an unstructured mesh into a more regular and structured model in an automatic way is a challenging task and still open problem. 
+
+							Since structured meshes are useful in different applications, it is of interest to be able to guarantee such property also in scenarios of part based modeling, which aim to build digital objects by composition, instead of modeling them from a scratch.
+
+							This thesis will present methods for obtaining structured meshes in two different ways. First is presented a coarse quad layout computation method which starts from a triangle mesh and the curve-skeleton of the shape. The second approach allows to build complex shapes by procedural composition of PAM's. Since both quad layouts and PAMs exploit their global structure, similarities between the two will be discussed, especially how their structure has correspondences to the curve-skeleton describing the topology of the shape being represented. Since both the presented methods rely on the information provided by the skeleton, the difficulties of using automatically extracted curve-skeletons without processing are discussed, and an interactive tool for user-assisted processing is presented.
+						</p>	
+						<a style="font-size: 20px; vertical-align: middle;" href="https://drive.google.com/open?id=0BxzwUTsCLVDIX05MeEJWektJb0k"><strong> Download </strong> </a>
+					
 					</div>
 				</div>
 
@@ -102,64 +108,8 @@
 						Paper
 						</a>
 					</li>
-					<li class="fa fa-file-powerpoint-o" style="font-size: 40px;display: list-item;list-style-type: none; margin-top: 10px">
-						<a style="font-size: 20px; vertical-align: middle;"
-						href="https://drive.google.com/file/d/0BxzwUTsCLVDIelFhRS1mOFpZQlU">>
-						Conference presentation
-						</a>
-					</li>
-					<li class="fa fa-file-archive-o" style="font-size: 40px;display: list-item;list-style-type: none; margin-top: 10px">
-						<a style="font-size: 20px; vertical-align: middle;"
-						href="https://drive.google.com/open?id=0B6EEjMMaU7haUHhmQ0xWOGRjSVE">
-						Sample Data
-						</a>
-					</li>
-					<br>
-					<p class="lead"><strong> We also developed an interactive tool for editing curve-skeletons in order to make them fit our pipeline.</strong></p>
-					<li class="fa fa-link" style="font-size: 40px;display: list-item;list-style-type: none; margin-top: 10px">
-						<a style="font-size: 20px; vertical-align: middle;" href="skel_lab.html">
-						Skeleton Lab project page
-						</a>						
-					</li>
 				</ul>		
-
-		<section id="info" class="section section-solid" style="background:white">
-			<div class="container">
-				<div class="row" style="margin-top: 100px;">
-					<div class="col-sm-12">
-						<h3 class="section-title">
-							BibTex</h3>
-						<div class="section-title-border"></div>
-					</div>
-				</div>
-				<!-- <p class="lead"><strong> Please cite this paper if you have used this tool </strong></p> -->
-				<p class="lead"> Available sooon </p>
-
-			</div>
-		</section>
-
-		<section id="info" class="section section-solid" style="background:white">
-			<div class="container">
-				<div class="row" style="margin-top: 100px;">
-					<div class="col-sm-12">
-						<h3 class="section-title"> Image Gallery</h3>
-						<div class="section-title-border"></div>
-					</div>
-				</div>
-				<div class"row">											
-						<img src="assets/img/portfolio/skel_to_quad/mosaic.png" class="img-responsive about-img" 
-						style="margin-bottom : 50px" />										
-						<img src="assets/img/portfolio/skel_to_quad/comparisons.png" class="img-responsive about-img"
-							style="margin-bottom : 50px" />							
-						<img src="assets/img/portfolio/skel_to_quad/remeshing.png" class="img-responsive about-img"
-							style="margin-bottom : 50px" />
-						<img src="assets/img/portfolio/skel_to_quad/uv_mappings.png" class="img-responsive about-img"
-							style="margin-bottom : 50px" />						
-
-				</div>
-
-			</div>
-		</section>		
+	
 		<section id="info" class="section section-solid" style="background:white">
 			<div>
 				<p style="font-size:20px text-color:black !important " >
