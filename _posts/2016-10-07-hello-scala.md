@@ -8,10 +8,8 @@ Hello, in this blog I would like show some of the things I learnt or I am curren
 Given that I am currently learning Scala, here's how I greet the readers.
 
 ```scala
-class User{
-  firstName : String,
-  lastName : String
-}
+case class User( firstName : String, lastName : String)
+
 val blogName = "Let the code speak"
 
 def greetReaders( readers : List[User] ){ // return type is inferred by the compiler
