@@ -18,10 +18,11 @@ $(function () {
 	/* ---------------------------------------------------------
 	 *	Background
 	 */
-	
-	$.backstretch([
-		"site_assets/img/background/bg-research_ld.png"
-	], {duration: 3800, fade: 1500});
+	if(document.location.href.indexOf("index-research")!=-1){
+		$.backstretch([		
+			"site_assets/img/background/bg-research_ld.png"
+		], {duration: 3800, fade: 1500});
+	}
 	
 	
 	/* ---------------------------------------------------------
