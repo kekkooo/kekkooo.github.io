@@ -4,7 +4,7 @@ updated: 2016-10-07 22:42
 category: [SCALA]
 ---
 
-Hello, in this blog I would like show some of the things I learnt or I am currently learning, trying to avoid long explainations in favour of code snippets.
+Hello, in this blog I would like show some of the things I learnt or I am currently learning. I will try to avoid long explainations in favour of code snippets.
 
 Given that I am currently working in Scala, here's how I greet the readers.
 

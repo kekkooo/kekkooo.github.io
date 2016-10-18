@@ -31,7 +31,7 @@ optionList
  optionList.flatMap(inc)
 ```
 
-How a world without null-value would be the operation of getting the first element of a possibly empty list.
+Suppose to live in a null-value-free world, how would it be the operation of getting the first element of a possibly empty list?
 
 ```scala
 case class User( firstName : String, lastName : String)
