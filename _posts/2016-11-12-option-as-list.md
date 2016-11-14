@@ -8,7 +8,7 @@ keywords: "scala, list, monad, monads, jvm, java, programming"
 
 Hello there, sorry to have missed the weekly appointment with a blog post, but I was striving to complete the course *Parallel Programming in Scala* on [Coursera][1], hence time has slipped away quite fast.
 
-Back on track! During the last few days at work, it happened to me multpile times to prefer working with optional types as if they were lists. Or better, one-item lists. A really great thing about the Scala library is that its API is super consistent and similar operations on different types are treated and named alike.
+Back on track! During the last few days at work, it happened to me multpile times to prefer working with optional types as if they were lists. Or better, one-item lists. A really great thing about the Scala library is that its API is super consistent and similar operations on different types are treated and named alike. Please refer to my old post about the [Option][2] and [List][3] types and operations for an introductive reading.
 
 For example: when you have a `Option[T]`, sometimes (read: a lot of times) you want to check if the **possibly** contained value is equal to some specific value you are looking 
 
@@ -53,12 +53,14 @@ maybeNumber.foreach(num => println(s"The square root is ${Math.sqrt(num)}"))
 As you can see I am a big fan of this approach. I think that overall it simplifies both the code and the thinking behind it, allowing you to use always way of doing things. Let's see some more code:
 
 ```scala
-// pop quiz, what will be printed if maybeNumber is None? and if it was Some(121.0), or Some(99.0)?
+// pop quiz! what will be printed if maybeNumber is None? or Some(121.0)? or Some(99.0)?
+// Hint for maybeNumber = Some(49) it would print -> Result is 8
 maybeNumber
   .map(Math.sqrt)
   .filter(x => x < 10.0)
   .map(_ + 1)
-  .foreach(x => println(s"Result is $x"))
+  .foreach(x => println(s"Result is $x")) 
+
 
 // the Option allows you also to check for predicates
 maybeNumber.exists(x => x % 2 == 0)
@@ -82,3 +84,5 @@ Have a great time.
 Cheers
 
 [1]: https://www.coursera.org/learn/parprog1
+[2]: option-monad
+[3]: lists-part-1
