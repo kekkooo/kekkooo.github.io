@@ -8,7 +8,7 @@ keywords: "scala, jvm, java, def, compiler, magic, tupled, programming"
 
 Avada Kedavra! Vingardium Leviosa! *myFunction _*!
 
-A great thing aboout `map, `flatMap` and others is that they are [higher-order-functions][1] (i.e. functions that take other functions as parameters or return functions) allowing us to modularize our code and avoid the ... ehm ... ***function-as-parameter-hell™*** (named after [_callback-hell_][2]).
+A great thing aboout `map`, `flatMap` and others is that they are [higher-order-functions][1] (i.e. functions that take other functions as parameters or return functions) allowing us to modularize our code and avoid the ... ehm ... ***function-as-parameter-hell™*** (named after [_callback-hell_][2]).
 
 ```scala
 List(1, 2, 3, 4).map{ number =>
