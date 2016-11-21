@@ -11,8 +11,7 @@ author_email:       fr.usai1@gmail.com
 # twitter_username:   HeiswayiNrird
 
 # Site Settings
-baseurl:            "francesco.usai/blog" # Base URL must end WITHOUT a slash, default: ""
-url:                "francesco.usai/blog" # Base URL must end WITHOUT a slash, default: ""
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
 timezone:           Europe/Rome # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
