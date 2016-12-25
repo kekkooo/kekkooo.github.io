@@ -4,6 +4,7 @@ updated: 2016-21-08 20:30
 category: SCALA
 description: "How to use an Option as a one item List."
 keywords: "scala, list, monad, monads, jvm, java, programming"
+comments: true
 ---
 
 Hello there, sorry to have missed the weekly appointment with a blog post, but I was striving to complete the course *Parallel Programming in Scala* on [Coursera][1], hence time has slipped away quite fast.

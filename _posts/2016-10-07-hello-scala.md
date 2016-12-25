@@ -2,6 +2,7 @@
 title: Hello Scala
 updated: 2016-10-07 22:42
 category: [SCALA]
+comments: true
 ---
 
 Hello, in this blog I would like show some of the things I learnt or I am currently learning. I will try to avoid long explainations in favour of code snippets.

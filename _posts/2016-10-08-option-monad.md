@@ -4,6 +4,7 @@ updated: 2016-10-08 17:12
 category: SCALA
 description: "The Option monad in Scala"
 keywords: "scala, option, monad, monads, jvm, java, programming"
+comments: true
 ---
 
 Yo, monads! It's 2016 and you aren't using monads? Go find another job.

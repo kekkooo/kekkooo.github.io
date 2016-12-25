@@ -4,6 +4,7 @@ updated: 2016-21-08 20:30
 category: SCALA
 description: "How to get the function from a def. How to use map with functions with N parameters"
 keywords: "scala, jvm, java, def, compiler, magic, tupled, programming"
+comments: true
 ---
 
 Avada Kedavra! Vingardium Leviosa! *myFunction _*!
