@@ -4,6 +4,7 @@ updated: 2016-22-21 23:45
 category: SCALA, TALK
 description: "Report and slides of the talk Scala in Practice held at the University of Cagliari"
 keywords: "scala talk seminar programming development akka akka-http unica university cagliari"
+comments: true
 ---
 
 Hello Scala enthusiasts,
