@@ -72,7 +72,7 @@ This configuration says to nginx :
 1. ehi mr. server, please listen on port 80...
 2. ...and you should only handle the request if it is for the website *francescousai.info*
 3. the files you should serve, are located at the provided path. This point got me crazy, It's not stated anywhere if the `root` path is absolute or relative to the default `/usr/share/nginx/html`. It is not, you should put the absolute path.
-4. `location directive allows to define some location (path) specific configurations. In this case `/ will match all *url*s, hence the configuration will apply to all urls.
+4. `location` directive allows to define some location (path) specific configurations. In this case `/ will match all *url*s, hence the configuration will apply to all urls.
 5. Since this blog is generated using Jekyll, I need this line to try to match the request with no extension. It literally says : try with the requested *uri*. If you do not find any file that matches, try appending `.html`, if not found, try with a trailing `/`. If all the previous fail, just point to `404.html`. Use these instructions with care, because if you do not have a last resort result (in this case 404.html) or it cannot be found, each failed call will end up in a loop of attempts, leading to an Internal Server Error.
 
 The configuration for `example.com` is essentially the same, with updated `server_name`, `root` and without the location directive, since the other website do not need this special url handling.
