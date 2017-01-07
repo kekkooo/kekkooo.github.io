@@ -19,7 +19,7 @@ Typical usage of Docker containers relates to microservices architectures. In th
 
 I will completely skip the part about how to set up Docker. You should essentially download and install Docker and run the Docker daemon. But please refer to [Docker official website][1] to have detailed and updated instructions.
 
-[Here][3]'s a great introduction on how to set up and manage a nginx container with ease. And you can find additional information on the official nginx Docker image, [here][3].
+[Here][2]'s a great introduction on how to set up and manage a nginx container with ease. And you can find additional information on the official nginx Docker image, [here][3].
 
 Being a newbie I started from there and from the [official nginx documentation][4]. However, I had some issues in making everything work as expected, hence I decided to summarize my findings and help you set up all your websites on a containerized nginx instance.
 
@@ -72,7 +72,7 @@ This configuration says to nginx :
 1. ehi mr. server, please listen on port 80...
 2. ...and you should only handle the request if it is for the website *francescousai.info*
 3. the files you should serve, are located at the provided path. This point got me crazy, It's not stated anywhere if the `root` path is absolute or relative to the default `/usr/share/nginx/html`. It is not, you should put the absolute path.
-4. `location` directive allows to define some location (path) specific configurations. In this case `/ will match all *url*s, hence the configuration will apply to all urls.
+4. `location directive allows to define some location (path) specific configurations. In this case `/ will match all *url*s, hence the configuration will apply to all urls.
 5. Since this blog is generated using Jekyll, I need this line to try to match the request with no extension. It literally says : try with the requested *uri*. If you do not find any file that matches, try appending `.html`, if not found, try with a trailing `/`. If all the previous fail, just point to `404.html`. Use these instructions with care, because if you do not have a last resort result (in this case 404.html) or it cannot be found, each failed call will end up in a loop of attempts, leading to an Internal Server Error.
 
 The configuration for `example.com` is essentially the same, with updated `server_name`, `root` and without the location directive, since the other website do not need this special url handling.
