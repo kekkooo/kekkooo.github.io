@@ -1,7 +1,7 @@
 ---
 title: Running multiple websites with Docker & Nginx.
 updated: 2017-01-04 17:05
-category: DOCKER, NGINX
+category: DOCKER
 description: "Get your your web server (Nginx) running multiple websites in a Docker container"
 keywords: "Docker Nginx container web server web site website osx mac"
 comments: true

@@ -1,7 +1,7 @@
 ---
 title: Scala in Practice Talk.
 updated: 2016-22-21 23:45
-category: SCALA, TALK
+category: SCALA
 description: "Report and slides of the talk Scala in Practice held at the University of Cagliari"
 keywords: "scala talk seminar programming development akka akka-http unica university cagliari"
 comments: true
